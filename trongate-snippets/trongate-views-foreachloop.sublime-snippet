@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<?php
+foreach (\$rows as \$row) {
+?>
+	${1}
+<?php
+}
+?>
+]]></content>
+	<description>foreach loop in trongate view file</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tg:for</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.window</scope>
+</snippet>

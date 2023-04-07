@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+function submit() {
+	// uncomment the following as your need
+	//\$this->module('trongate_security');
+	//\$this->trongate_security->_make_sure_allowed();
+
+	\$submit = post('submit', 'true');
+
+	if (\$submit == 'Submit') {
+		\$this->validation_helper->set_rules('${1}', '${2}', '${3}');
+
+		\$result = \$this->validation_helper->run();
+
+		if (\$result == true) {
+			${4}
+		} else {
+			${5}
+		}
+
+		//set_flashdata(\$flash_msg);
+		//redirect('your_module/show/\$update_id');
+	} else {
+		// do some other stuff here
+		$0
+	}
+}
+]]></content>
+	<!-- Optional: Set a description (filename will be used if not set) -->
+	<description>Trongate Submit Function</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tg:submit</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

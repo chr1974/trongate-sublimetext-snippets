@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<?php
+if (${1}) {
+?>
+	${2}
+<?php	
+} else {
+?>
+	${3}$0
+<?php
+}
+?>
+]]></content>
+	<description>if else condition in trongate view file</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tg:ifelse</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

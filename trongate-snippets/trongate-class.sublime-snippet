@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<?php
+
+class ${1:Name} extends Trongate {
+	${2://Your code goes here}$0
+}
+]]></content>
+	<description>Class that extends Trongate</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tgc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>
