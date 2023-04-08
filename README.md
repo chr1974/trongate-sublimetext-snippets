@@ -21,7 +21,7 @@ and add the trongate-snippets folder into that folder.
 
 ```
 <!-- your snippet goes here, tab positions should be marked ${1}, ${2} and so on... $0 marks where last tabstop ends -->
-<!-- before php variables $var we must put a single \ in fron for var to show \$var -->
+<!-- in front of dollarsign on php variables we must put a single \ in front of it like so: \$var  for it to shoa as var in snippet-->
 <snippet>
    <content><![CDATA[
       if (${1}) {
