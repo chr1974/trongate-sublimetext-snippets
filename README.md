@@ -5,11 +5,14 @@ Some simple Trongate Framework Snippets for sublime text 4 based of off
 Contributions Welcome!
 
 #### Triggers used currently:
-+ **tgc**         - Creates a class that extends Trongate
-+ **tg:submit**   - Creates a submit function
-+ **tg:for**      - Creates a foreach loop in a Viewfile
-+ **tg:if**       - Creates a if condition in a Viefile
-+ **tg:ifelse**   - Creates a if else condition in a Viewfile
+
+| tabTrigger    | Description                               |
+| ------------- |:-----------------------------------------:|
+| **tgc**       | Creates a class that extends Trongate     |
+| **tg:submit** | Creates a submit function                 |
+| **tg:for**    | Creates a foreach loop in a Viewfile      |      |
+| **tg:if**     | Creates a if condition in a Viefile       |
+| **tg:ifelse** | Creates a if else condition in a Viewfile |         
 
 to use the snippets navigate to: **C:\Users\<your_username>\AppData\Roaming\Sublime Text\Packages\User**
 and add the trongate-snippets folder into that folder.
