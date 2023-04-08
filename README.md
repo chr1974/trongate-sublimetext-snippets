@@ -4,7 +4,7 @@ Some simple Trongate Framework Snippets for sublime text 4 based of off
 
 Contributions Welcome!
 
-####Triggers used currently:
+#### Triggers used currently:
 + **tgc**         - Creates a class that extends Trongate
 + **tg:submit**   - Creates a submit function
 + **tg:for**      - Creates a foreach loop in a Viewfile
